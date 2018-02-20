@@ -1,9 +1,12 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: {
+  	app: './src/index.js',
+  },
   output: {
-  	filename: 'bundle.js',
+  	filename: '[name].bundle.js',
   	path: path.resolve(__dirname, 'dist'),
   },
   module: {
@@ -28,5 +31,11 @@ module.exports = {
 	  		],
 	  	}
   	]
-  }
+  },
+  plugins: [
+  	new HtmlWebpackPlugin({
+  		title: 'Jest Testing Setup',
+  		template: './src/index.html',
+  	})
+  ]
 }
