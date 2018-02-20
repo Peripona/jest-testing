@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Raleway';
+	src: url('./assets/fonts/Raleway/Raleway-Light.ttf');
+	font-weight: 400;
+	font-style: normal;
+}
+
+.hello {
+	color: green;
+	font-family: 'Raleway';
+	font-size: 26px;
+}
+
+.profile {
+	width: 300px;
+	height: 400px;
+	display: flex;
+}
