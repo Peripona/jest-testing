@@ -1,0 +1,10 @@
+{
+  "name": "peripona",
+  "version": "1.0.0",
+  "description": "jest testing explaination",
+  "main": "index.js",
+  "repository": "https://github.com/Peripona/jest-testing.git",
+  "author": "periona",
+  "license": "MIT",
+  "private": false
+}
