@@ -8,10 +8,14 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "webpack"
+    "start": "webpack",
+    "build": "webpack"
   },
   "devDependencies": {
     "jest": "^22.3.0",
     "webpack": "^3.11.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
   }
 }
