@@ -60,3 +60,6 @@ typings/
 # intelliJ
 .idea
 
+# dist
+dist
+

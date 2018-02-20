@@ -7,6 +7,9 @@
   "author": "periona",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "webpack"
+  },
   "devDependencies": {
     "jest": "^22.3.0",
     "webpack": "^3.11.0"
