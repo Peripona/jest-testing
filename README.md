@@ -1,2 +1,6 @@
 # jest-testing
-Jest testing setup for React project
+
+h2. Webpack config and possiblilities
+
+h2. Jest testing setup for React project
+
