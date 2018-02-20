@@ -8,10 +8,12 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "webpack",
-    "build": "webpack"
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
     "css-loader": "^0.28.9",
     "file-loader": "^1.1.7",
     "html-webpack-plugin": "^2.30.1",
