@@ -8,7 +8,7 @@ function component() {
 const element = document.createElement('div');
 const btn = document.createElement('button');
 
-element.innerHTML = _.join(['Hello', 'Webpack', 'Awesome Tutorials'], ' ');
+element.innerHTML = _.join(['Helloos ', 'Webpack', 'Awesome Tutorials'], ' ');
 element.classList.add('hello');
 
 const profile = new Image();
